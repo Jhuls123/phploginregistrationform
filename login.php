@@ -19,7 +19,7 @@
                         <input type="text" name="username">
                     </div>
                     <div>
-                        <label for="password">username</label>
+                        <label for="password">password</label>
                         <input type="password" name="password">
                     </div>
                     <input type="submit" value="login" name="login">
@@ -33,7 +33,7 @@
                         <input type="text" name="username">
                     </div>
                     <div>
-                        <label for="password">username</label>
+                        <label for="password">password</label>
                         <input type="password" name="password">
                     </div>
                     <input type="submit" value="register" name="register">

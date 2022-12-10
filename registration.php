@@ -2,7 +2,6 @@
 
 <?php
     session_start();
-    header('location:login.php');
 
     // $uid = $_POST['username'];
     // $pwd = $_POST['password'];
@@ -34,6 +33,8 @@
         $result = $stmt->execute();
         if($result) {
             echo "registration success!";
+             header('location:login.php');
+
         } else {
             echo "something went wrong!";
         }
